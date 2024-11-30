@@ -2,11 +2,171 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Back2basics on Aditya notes</title>
-    <link>/back2basic/</link>
+    <link>//localhost:1313/back2basic/</link>
     <description>Recent content in Back2basics on Aditya notes</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/back2basic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 10:13:16 +0700</lastBuildDate><atom:link href="//localhost:1313/back2basic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker vs Kube</title>
+      <link>//localhost:1313/back2basic/docker-vs-kube/</link>
+      <pubDate>Sat, 30 Nov 2024 10:13:16 +0700</pubDate>
+      
+      <guid>//localhost:1313/back2basic/docker-vs-kube/</guid>
+      <description>&lt;h1 id=&#34;docker-vs-kubernetes-key-differences&#34;&gt;Docker vs Kubernetes: Key Differences&lt;/h1&gt;
+&lt;p&gt;Docker and Kubernetes serve different purposes in the containerization ecosystem but are often used together. Here&amp;rsquo;s a breakdown of their differences:&lt;/p&gt;
+&lt;h2 id=&#34;docker&#34;&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What It Is&lt;/strong&gt;: A platform for building, packaging, and running containerized applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Primary Focus&lt;/strong&gt;: Containerization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Features&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Provides tools to create and manage containers.&lt;/li&gt;
+&lt;li&gt;Manages container images and allows seamless sharing (e.g., via Docker Hub).&lt;/li&gt;
+&lt;li&gt;Simple orchestration with Docker Compose for small-scale setups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case&lt;/strong&gt;: Ideal for local development, testing, and small-scale deployments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kubernetes&#34;&gt;&lt;strong&gt;Kubernetes&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What It Is&lt;/strong&gt;: An open-source container orchestration platform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Primary Focus&lt;/strong&gt;: Container management at scale.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Features&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Automates deployment, scaling, and management of containerized applications.&lt;/li&gt;
+&lt;li&gt;Handles multi-container setups across clusters of machines.&lt;/li&gt;
+&lt;li&gt;Provides advanced features like self-healing, rolling updates, and service discovery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case&lt;/strong&gt;: Essential for managing large-scale, production-grade containerized applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-differences&#34;&gt;&lt;strong&gt;Key Differences&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Feature&lt;/th&gt;
+          &lt;th&gt;Docker&lt;/th&gt;
+          &lt;th&gt;Kubernetes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Purpose&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Containerization platform&lt;/td&gt;
+          &lt;td&gt;Container orchestration&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Focus&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Building and running containers&lt;/td&gt;
+          &lt;td&gt;Scaling and managing containers&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Complexity&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Simple setup&lt;/td&gt;
+          &lt;td&gt;Requires more setup and configuration&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Scaling&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Limited to Docker Swarm&lt;/td&gt;
+          &lt;td&gt;Highly scalable with advanced features&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Ecosystem&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Docker CLI, Docker Compose&lt;/td&gt;
+          &lt;td&gt;Uses container runtimes like Docker, containerd, etc.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;relationship&#34;&gt;&lt;strong&gt;Relationship&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker creates and manages containers.&lt;/li&gt;
+&lt;li&gt;Kubernetes orchestrates those containers in distributed systems.&lt;/li&gt;
+&lt;li&gt;Kubernetes can use Docker as its container runtime or alternatives like &lt;strong&gt;containerd&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;strong&gt;Docker&lt;/strong&gt; for container creation and lightweight setups.&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Kubernetes&lt;/strong&gt; to manage complex, large-scale containerized environments.&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content>&lt;h1 id=&#34;docker-vs-kubernetes-key-differences&#34;&gt;Docker vs Kubernetes: Key Differences&lt;/h1&gt;
+&lt;p&gt;Docker and Kubernetes serve different purposes in the containerization ecosystem but are often used together. Here&amp;rsquo;s a breakdown of their differences:&lt;/p&gt;
+&lt;h2 id=&#34;docker&#34;&gt;&lt;strong&gt;Docker&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What It Is&lt;/strong&gt;: A platform for building, packaging, and running containerized applications.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Primary Focus&lt;/strong&gt;: Containerization.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Features&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Provides tools to create and manage containers.&lt;/li&gt;
+&lt;li&gt;Manages container images and allows seamless sharing (e.g., via Docker Hub).&lt;/li&gt;
+&lt;li&gt;Simple orchestration with Docker Compose for small-scale setups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case&lt;/strong&gt;: Ideal for local development, testing, and small-scale deployments.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;kubernetes&#34;&gt;&lt;strong&gt;Kubernetes&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;What It Is&lt;/strong&gt;: An open-source container orchestration platform.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Primary Focus&lt;/strong&gt;: Container management at scale.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Key Features&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Automates deployment, scaling, and management of containerized applications.&lt;/li&gt;
+&lt;li&gt;Handles multi-container setups across clusters of machines.&lt;/li&gt;
+&lt;li&gt;Provides advanced features like self-healing, rolling updates, and service discovery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use Case&lt;/strong&gt;: Essential for managing large-scale, production-grade containerized applications.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;key-differences&#34;&gt;&lt;strong&gt;Key Differences&lt;/strong&gt;&lt;/h2&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Feature&lt;/th&gt;
+          &lt;th&gt;Docker&lt;/th&gt;
+          &lt;th&gt;Kubernetes&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Purpose&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Containerization platform&lt;/td&gt;
+          &lt;td&gt;Container orchestration&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Focus&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Building and running containers&lt;/td&gt;
+          &lt;td&gt;Scaling and managing containers&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Complexity&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Simple setup&lt;/td&gt;
+          &lt;td&gt;Requires more setup and configuration&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Scaling&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Limited to Docker Swarm&lt;/td&gt;
+          &lt;td&gt;Highly scalable with advanced features&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Ecosystem&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Docker CLI, Docker Compose&lt;/td&gt;
+          &lt;td&gt;Uses container runtimes like Docker, containerd, etc.&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;relationship&#34;&gt;&lt;strong&gt;Relationship&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker creates and manages containers.&lt;/li&gt;
+&lt;li&gt;Kubernetes orchestrates those containers in distributed systems.&lt;/li&gt;
+&lt;li&gt;Kubernetes can use Docker as its container runtime or alternatives like &lt;strong&gt;containerd&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;strong&gt;Docker&lt;/strong&gt; for container creation and lightweight setups.&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Kubernetes&lt;/strong&gt; to manage complex, large-scale containerized environments.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
   </channel>
 </rss>

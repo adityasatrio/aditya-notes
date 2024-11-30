@@ -2,10 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Aditya notes</title>
-    <link>/categories/</link>
+    <link>//localhost:1313/categories/</link>
     <description>Recent content in Categories on Aditya notes</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 10:13:16 +0700</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back2basic</title>
+      <link>//localhost:1313/categories/back2basic/</link>
+      <pubDate>Sat, 30 Nov 2024 10:13:16 +0700</pubDate>
+      
+      <guid>//localhost:1313/categories/back2basic/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>

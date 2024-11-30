@@ -1,7 +1,8 @@
 +++
 title = 'Docker vs Kube'
 date = 2024-11-30T10:13:16+07:00
-draft = true
+draft = false
+categories= ["back2basic"]
 +++
 
 # Docker vs Kubernetes: Key Differences

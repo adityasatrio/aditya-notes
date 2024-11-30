@@ -2,17 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2024-11-30T10:13:16+07:00</lastmod>
   </url><url>
-    <loc>/back2basic/</loc>
+    <loc>//localhost:1313/categories/back2basic/</loc>
     <lastmod>2024-11-30T10:13:16+07:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/back2basic/</loc>
+    <lastmod>2024-11-30T10:13:16+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-11-30T10:13:16+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/back2basic/docker-vs-kube/</loc>
+    <lastmod>2024-11-30T10:13:16+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/my-first-post/</loc>
     <lastmod>2024-04-15T15:22:35+07:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2024-04-15T15:22:35+07:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url>
 </urlset>

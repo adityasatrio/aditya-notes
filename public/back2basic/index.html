@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta name="generator" content="Hugo 0.139.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
-    <title>Aditya notes</title>
+    <title>Back2basics :: Aditya notes</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="//localhost:1313/" />
+<link rel="canonical" href="//localhost:1313/back2basic/" />
 
 
 
@@ -76,9 +75,9 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Aditya notes">
+<meta property="og:title" content="Back2basics">
 <meta property="og:description" content="" />
-<meta property="og:url" content="//localhost:1313/" />
+<meta property="og:url" content="//localhost:1313/back2basic/" />
 <meta property="og:site_name" content="Aditya notes" />
 
   <meta property="og:image" content="//localhost:1313/og-image.png">
@@ -90,7 +89,7 @@
 
 
 
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Aditya notes" />
+  <link href="/back2basic/index.xml" rel="alternate" type="application/rss+xml" title="Aditya notes" />
 
 
 
@@ -128,21 +127,11 @@
   
   <div class="posts">
     
-    
-
-    
-    
-      
-    
-    
-
-    
       <article class="post on-list">
         <h2 class="post-title">
-          <a href="//localhost:1313/posts/my-first-post/">My First Post</a>
+          <a href="//localhost:1313/back2basic/docker-vs-kube/">Docker vs Kube</a>
         </h2>
-
-        <div class="post-meta"><time class="post-date">2024-04-15</time></div>
+        <div class="post-meta"><time class="post-date">2024-11-30</time></div>
 
         
 
@@ -151,15 +140,88 @@
 
         <div class="post-content">
           
-            <h2 id="introduction">Introduction</h2>
-<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
-<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+            <h1 id="docker-vs-kubernetes-key-differences">Docker vs Kubernetes: Key Differences</h1>
+<p>Docker and Kubernetes serve different purposes in the containerization ecosystem but are often used together. Here&rsquo;s a breakdown of their differences:</p>
+<h2 id="docker"><strong>Docker</strong></h2>
+<ul>
+<li><strong>What It Is</strong>: A platform for building, packaging, and running containerized applications.</li>
+<li><strong>Primary Focus</strong>: Containerization.</li>
+<li><strong>Key Features</strong>:
+<ul>
+<li>Provides tools to create and manage containers.</li>
+<li>Manages container images and allows seamless sharing (e.g., via Docker Hub).</li>
+<li>Simple orchestration with Docker Compose for small-scale setups.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Ideal for local development, testing, and small-scale deployments.</li>
+</ul>
+<h2 id="kubernetes"><strong>Kubernetes</strong></h2>
+<ul>
+<li><strong>What It Is</strong>: An open-source container orchestration platform.</li>
+<li><strong>Primary Focus</strong>: Container management at scale.</li>
+<li><strong>Key Features</strong>:
+<ul>
+<li>Automates deployment, scaling, and management of containerized applications.</li>
+<li>Handles multi-container setups across clusters of machines.</li>
+<li>Provides advanced features like self-healing, rolling updates, and service discovery.</li>
+</ul>
+</li>
+<li><strong>Use Case</strong>: Essential for managing large-scale, production-grade containerized applications.</li>
+</ul>
+<h2 id="key-differences"><strong>Key Differences</strong></h2>
+<table>
+  <thead>
+      <tr>
+          <th>Feature</th>
+          <th>Docker</th>
+          <th>Kubernetes</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Purpose</strong></td>
+          <td>Containerization platform</td>
+          <td>Container orchestration</td>
+      </tr>
+      <tr>
+          <td><strong>Focus</strong></td>
+          <td>Building and running containers</td>
+          <td>Scaling and managing containers</td>
+      </tr>
+      <tr>
+          <td><strong>Complexity</strong></td>
+          <td>Simple setup</td>
+          <td>Requires more setup and configuration</td>
+      </tr>
+      <tr>
+          <td><strong>Scaling</strong></td>
+          <td>Limited to Docker Swarm</td>
+          <td>Highly scalable with advanced features</td>
+      </tr>
+      <tr>
+          <td><strong>Ecosystem</strong></td>
+          <td>Docker CLI, Docker Compose</td>
+          <td>Uses container runtimes like Docker, containerd, etc.</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="relationship"><strong>Relationship</strong></h2>
+<ul>
+<li>Docker creates and manages containers.</li>
+<li>Kubernetes orchestrates those containers in distributed systems.</li>
+<li>Kubernetes can use Docker as its container runtime or alternatives like <strong>containerd</strong>.</li>
+</ul>
+<h2 id="tldr"><strong>TL;DR</strong></h2>
+<ul>
+<li>Use <strong>Docker</strong> for container creation and lightweight setups.</li>
+<li>Use <strong>Kubernetes</strong> to manage complex, large-scale containerized environments.</li>
+</ul>
           
         </div>
 
         
-          <div>
-            <a class="read-more button inline" href="/posts/my-first-post/"></a>
+           <div>
+            <a class="read-more button inline" href="/back2basic/docker-vs-kube/"></a>
           </div>
         
       </article>

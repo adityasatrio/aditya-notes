@@ -4,3 +4,9 @@ title = 'Aditya notes'
 theme = 'terminal'
 paginate = 5
 contentDir = "content"
+
+[pagination]
+pagerSize = 5
+
+[params]
+showAllPosts = true
