@@ -3,3 +3,4 @@ languageCode = 'en-us'
 title = 'Aditya notes'
 theme = 'terminal'
 paginate = 5
+contentDir = "content"
